@@ -1,0 +1,61 @@
+/* Styling the form */
+
+
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #341313;
+  border-radius: 5px;
+  margin-top: 130px;
+  border: 2px solid black;
+}
+
+/* Styling the input fields */
+.form-container input[type="email"],
+.form-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/* Styling the submit button */
+.form-container input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+
+}
+
+/* Change the submit button color on hover */
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the form header */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  background-color: #341313;
+}
+
+label {
+  background-color: #341313;
+}
+
+.form-container>h2 {
+  color: whitesmoke;
+}
